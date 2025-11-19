@@ -1,15 +1,17 @@
 1st (git)
 
+mkdir devops
+cd devops
 git init
 touch index.html
-git config--global user.name" "
-git config--global user.email" "
-touch index.html
 git status
+(add code in index.html)
 git add index.html
 git status
 git commit-m"first change"
 git diff
+git add.
+git commit-m"second change"
 git log
 
 
