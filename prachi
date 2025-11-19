@@ -102,3 +102,28 @@ mvn pacakage
 
 7th
 
+create folder 'docker'and open terminal
+touch index.html
+touch dockerfile
+open dockerfile and add
+
+FROM httpd:2.4
+COPY index.html/usr/local/apache2/htdocs/
+
+add code in index.html
+
+open termial and add command:
+
+docker build -t project7
+
+sudo docker build -t project7 .
+
+sudo docker run -p 8092: 80 -d project
+
+open browser and check output
+
+type on browser
+http://localhost:809092: 80and check
+
+
+
