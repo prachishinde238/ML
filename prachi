@@ -1,4 +1,4 @@
-1st 
+1st (git)
 
 git init
 touch index.html
@@ -13,7 +13,7 @@ git diff
 git log
 
 
-2nd
+2nd( github)
 
 git clone"link"(http://......web.git)
 git push origin branchname
@@ -22,7 +22,7 @@ check master
 git pull origin branch name
 
 
-3rd
+3rd( gitlab)
 
 git clone"URL"
 add username
@@ -46,7 +46,7 @@ create merge request
 git pull origin main
 
 
-4th
+4th (bit bucket)
 
 touch index.html
 git add
@@ -63,7 +63,7 @@ git checkout main
 git pull origin main
 
 
-6th
+6th(maven)
 
 mvn archetype:generate -DgroupId=com.example -DartifactId=MyApp -Dinteractive=false
 cd MyApp
@@ -100,7 +100,7 @@ mvn pacakage
 
 
 
-7th
+7th(docker)
 
 create folder 'docker'and open terminal
 touch index.html
