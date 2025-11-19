@@ -77,6 +77,24 @@ open pom.xml file and add code after</url>
 check target folder create in your folder
 mvn exec:java
 open pom.xml file and add code after </dependencies>
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>exec-maven-plugin</artifactId>
+      <version>3.0.0</version>
+    <executions>
+      <execution>
+        <goals>
+          <goal>java<goal>
+        <goals>
+     <execution>
+    <executions>
 
+<configuration>
+  <mainclass>com.example.App</mainclass>
+  </configuration>
+  </plugin>
+</plugins>
 
-
+mvn pacakage
