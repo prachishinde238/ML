@@ -65,3 +65,18 @@ git pull origin main
 
 6th
 
+mvn archetype:generate -DgroupId=com.example -DartifactId=MyApp -Dinteractive=false
+cd MyApp
+tree
+mvn compile
+open pom.xml file and add code after</url>
+<properties>
+  <maven.compiler.source>8</maven.compiler.source>
+  <maven.compiler.target>8</maven.compiler.target>
+</properties>
+check target folder create in your folder
+mvn exec:java
+open pom.xml file and add code after </dependencies>
+
+
+
