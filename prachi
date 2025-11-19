@@ -90,7 +90,6 @@ open pom.xml file and add code after </dependencies>
         <goals>
      <execution>
     <executions>
-
 <configuration>
   <mainclass>com.example.App</mainclass>
   </configuration>
