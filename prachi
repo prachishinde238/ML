@@ -98,6 +98,8 @@ open pom.xml file and add code after </dependencies>
   </plugin>
 </plugins>
 
+mvn compile
+mvn exec:java
 mvn pacakage
 
 
