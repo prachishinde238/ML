@@ -20,3 +20,30 @@ git push origin branchname
 create token-gitgub,settings,developer setting,personal access token(classic),generate new token,generate new token (classic),note demo,generate token,copy link
 check master
 git pull origin branch name
+
+
+3rd
+
+git clone"URL"
+add username
+add password
+open terminal
+touch index.html
+git add
+git commit -m "v"
+git push origin main
+add use name and password(token)
+refresh project
+git branch new
+git branch checkout
+git checkout new
+touch style.css
+git add
+git commit -m "css v"
+git push origin new
+git checkout main
+create merge request
+git pull origin main
+
+
+4th
